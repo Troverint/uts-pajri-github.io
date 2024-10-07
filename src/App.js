@@ -43,7 +43,7 @@ import TicketEdit from "./components/ticket/TicketEdit";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/uts-pajri-github.io/" >
       <div className="flex">
         <Navbar />
         <div className="flex-grow ml-[250px] p-6">
