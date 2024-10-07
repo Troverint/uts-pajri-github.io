@@ -15,7 +15,6 @@ const PembeliAdd = () => {
         email,
         password,
       });
-      alert("Pembeli berhasil ditambahkan");
     } catch (error) {
       console.log(error);
     }

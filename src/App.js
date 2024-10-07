@@ -39,6 +39,7 @@ import PembeliEdit from "./components/pembeli/PembeliEdit";
 import TransaksiAdd from "./components/transaksi/TransaksiAdd";
 import TransaksiEdit from "./components/transaksi/TransaksiEdit";
 import TicketAdd from "./components/ticket/TicketAdd";
+import TicketEdit from "./components/ticket/TicketEdit";
 
 function App() {
   return (
@@ -62,6 +63,8 @@ function App() {
             <Route path="/transaksi/edit/:id" element={<TransaksiEdit />} />
             <Route path="/ticket/list" element={<TicketList />} />
             <Route path="/ticket/add" element={<TicketAdd />} />
+            <Route path="/ticket/edit/:id" element={<TicketEdit />} />
+
             {/* <Route path="/screening/add" element={<FilmAdd />} />
             <Route path="/screening/edit/:id" element={<FilmEdit />} /> */}
           </Routes>

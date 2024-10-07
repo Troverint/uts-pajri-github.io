@@ -208,7 +208,7 @@ const FilmList = () => {
                   {o.image ? (
                     <img
                       src={o.image}
-                      className="w-[25%] ml-3 border-blue-300 border-4 bg-slate-400"
+                      className="max-w-[25%] ml-3 border-blue-300 border-4 bg-slate-400"
                       alt=""
                     />
                   ) : (

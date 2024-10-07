@@ -60,12 +60,12 @@ const TicketList = () => {
                 <td className="px-4 py-2 border">{ticket.Pembeli.name}</td>
                 <td className="px-4 py-2 border">{ticket.Transaksi.metode_pembayaran}</td>
                 <td className="px-4 py-2 border text-center">
-                  <button
-                    onClick={() => alert(`Edit ticket with ID: ${ticket.id}`)}
-                    className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 mr-2"
-                  >
-                    Edit
-                  </button>
+                <button
+                 
+                 className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 mr-2"
+               >
+                 <Link to={`/ticket/edit/${ticket.id}`}>Edit</Link>
+               </button>
                   <button
                     onClick={() => deleteTicket(ticket.id)}
                     className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
