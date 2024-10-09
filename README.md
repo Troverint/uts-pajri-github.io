@@ -40,6 +40,6 @@ Berikut hasil screenshot dari tampilan yang telah dibuat:
 Berikut hasil screenshot dari tampilan <b>Form</b> yang telah dibuat: 
 
 - Form add dari <b>Page Film List</b> 
-<img src="../fe_ticket/image/form-film.png">
+<img src="./image/form-film.png">
 
-# ARIGATOU GOZAIMASU
+# terimakasih
