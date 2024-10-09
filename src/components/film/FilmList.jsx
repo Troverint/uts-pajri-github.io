@@ -184,7 +184,6 @@ const FilmList = () => {
     <div className="">
    
       <div className=" container mx-auto ">
-        <h1>testtttt</h1>
         <div className="atas flex justify-between">
           <h1 className="text-2xl font-bold font-poppins text-white">
             Film List
