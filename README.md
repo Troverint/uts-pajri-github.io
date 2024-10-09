@@ -22,19 +22,19 @@ Disini saya membuat sebuah project UTS Front End yaitu Kelola Ticketing dengan m
 Berikut hasil screenshot dari tampilan yang telah dibuat: 
 
 1. <b>Halaman Awal</b> - Page film list :
-<img src="../image/page-film.png">
+<img src="./image/page-film.png">
 
 2. <b>Halaman Screening</b> - Page screening list :
-<img src="../fe_ticket/image/page-screening.png">
+<img src="./image/page-screening.png">
 
 3. <b>Halaman Pembeli</b> - Page list pembeli :
-<img src="../fe_ticket/image/page-pembeli.png">
+<img src="./image/page-pembeli.png">
 
 4. <b>Halaman Transaksi</b> - Page list transaksi :
-<img src="../fe_ticket/image/page-transaksi.png">
+<img src="./image/page-transaksi.png">
 
 5. <b>Halaman Ticket</b> - Page list Ticket :
-<img src="../fe_ticket/image/page-ticket.png">
+<img src="./image/page-ticket.png">
 
 ## SCREENSHOT FORM
 Berikut hasil screenshot dari tampilan <b>Form</b> yang telah dibuat: 
