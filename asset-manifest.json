@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/uts-pajri-github.io/static/css/main.c4694e80.css",
-    "main.js": "/uts-pajri-github.io/static/js/main.3770f6a8.js",
+    "main.js": "/uts-pajri-github.io/static/js/main.23a0f0ce.js",
     "static/media/1.png": "/uts-pajri-github.io/static/media/1.9d22769fdff68aa69aa7.png",
     "index.html": "/uts-pajri-github.io/index.html",
     "main.c4694e80.css.map": "/uts-pajri-github.io/static/css/main.c4694e80.css.map",
-    "main.3770f6a8.js.map": "/uts-pajri-github.io/static/js/main.3770f6a8.js.map"
+    "main.23a0f0ce.js.map": "/uts-pajri-github.io/static/js/main.23a0f0ce.js.map"
   },
   "entrypoints": [
     "static/css/main.c4694e80.css",
-    "static/js/main.3770f6a8.js"
+    "static/js/main.23a0f0ce.js"
   ]
 }
