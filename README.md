@@ -22,7 +22,7 @@ Disini saya membuat sebuah project UTS Front End yaitu Kelola Ticketing dengan m
 Berikut hasil screenshot dari tampilan yang telah dibuat: 
 
 1. <b>Halaman Awal</b> - Page film list :
-<img src="../fe_ticket//image/page-film.png">
+<img src="../image/page-film.png">
 
 2. <b>Halaman Screening</b> - Page screening list :
 <img src="../fe_ticket/image/page-screening.png">
