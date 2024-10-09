@@ -26,7 +26,7 @@ const PembeliList = () => {
   return (
     <div className="container mx-auto ">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold text-[#F8FCFF]">Pembeli List</h1>
+        <h1 className="text-2xl font-bold font-poppins text-white drop-shadow-lg">Pembeli List</h1>
         <button
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
         >

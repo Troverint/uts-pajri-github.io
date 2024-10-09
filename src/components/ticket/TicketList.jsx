@@ -25,7 +25,7 @@ const TicketList = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold text-[#F8FCFF]">Ticket List</h1>
+        <h1 className="text-2xl font-bold font-poppins text-white drop-shadow-lg">Ticket List</h1>
         <button
           onClick={() => alert("Navigate to Add Ticket page")}
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"

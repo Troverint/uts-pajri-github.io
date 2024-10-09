@@ -7,6 +7,7 @@ const FilmEdit = () => {
   const [genre, setGenre] = useState("");
   const [sutradara, setSutradara] = useState("");
   const [description, setDescription] = useState("");
+  const [image, setImage] = useState("");
   const [rating, setRating] = useState("");
   const navigate = useNavigate();
   const { id } = useParams();
@@ -23,6 +24,7 @@ const FilmEdit = () => {
         genre,
         sutradara,
         description,
+        image,
         rating,
       });
       navigate("/film/list");
@@ -38,6 +40,7 @@ const FilmEdit = () => {
       setGenre(response.data.genre);
       setSutradara(response.data.sutradara);
       setDescription(response.data.description);
+      setImage(response.data.image);
       setRating(response.data.rating);
     } catch (error) {
       console.log(error);
@@ -99,7 +102,17 @@ const FilmEdit = () => {
               placeholder="Film Description"
             />
           </div>
-
+          <div className="mb-4">
+            <label className="block text-gray-700 text-sm font-bold mb-2">Poster URL</label>
+            <input
+              type="text"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              value={image}
+              onChange={(e) => setImage(e.target.value)}
+              placeholder="Poster URL"
+            />
+          </div>
+          
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Rating

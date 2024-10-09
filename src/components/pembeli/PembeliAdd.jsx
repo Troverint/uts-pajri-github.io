@@ -15,6 +15,7 @@ const PembeliAdd = () => {
         email,
         password,
       });
+      alert("Film berhasil ditambahkan");
     } catch (error) {
       console.log(error);
     }

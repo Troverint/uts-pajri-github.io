@@ -166,7 +166,7 @@
 // export default FilmAdd;
 import React, { useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, Navigate,  useNavigate } from "react-router-dom";
 
 const FilmAdd = () => {
   const [title, setTitle] = useState("");
@@ -175,7 +175,9 @@ const FilmAdd = () => {
   const [description, setDescription] = useState("");
   const [rating, setRating] = useState("");
   const [image, setImage] = useState(""); // Field baru untuk URL poster
-
+  const  Navigate = useNavigate()
+     
+  
   const saveFilm = async (e) => {
     e.preventDefault();
     try {
@@ -185,9 +187,10 @@ const FilmAdd = () => {
         sutradara,
         description,
         rating,
-        image, // Kirim URL poster
+        image, 
       });
       alert("Film berhasil ditambahkan");
+      Navigate('/film/list')
     } catch (error) {
       console.log(error);
     }
