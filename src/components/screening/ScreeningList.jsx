@@ -41,7 +41,7 @@ const ScreeningList = () => {
               <th className="px-4 py-2 border">Studio</th>
               <th className="px-4 py-2 border">Bangku Tersedia</th>
               <th className="px-4 py-2 border">Nama Film</th>
-              <th className="px-4 py-2 border">Actions</th>
+              <th className="px-4 py-2 border">Aksi</th>
             </tr>
           </thead>
           <tbody>
