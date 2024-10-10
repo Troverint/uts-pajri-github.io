@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# PROJECT
+Disini saya membuat sebuah project UTS Front End yaitu Kelola Ticketing dengan menggunakan library React JS, EXPRESS JS, React Router DOM untuk melakukan routing, AXIOS untuk melakukan fetching data dan menggunakan Tailwind CSS untuk memberikan responsive pada tampilan web.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## FEATURES
+- Integrasi dengan Rest API untuk fetching data
+- Style menggunakan tailwind
 
-## Available Scripts
+### TEKNOLOGI YANG DIGUNAKAN DALAM PEMBUATAN PROJECT :
+- <b>React</b> - Library JavaScript untuk membuat user interface
+- <b>Tailwind CSS</b> - Framework CSS berbasis utility-first
+- <b>Axios</b> - Klien HTTP berbasis promise untuk melakukan permintaan API
+- <b>React Router DOM</b> - Library untuk routing dalam aplikasi React, menyediakan cara untuk bernavigasi antara komponen atau halaman berbeda dalam aplikasi web
 
-In the project directory, you can run:
+## ROUTING AKSES MENU: 
+- /film
+- /screening
+- /pembeli
+- /transaksi
+- /ticket
 
-### `npm start`
+## SCREENSHOT
+Berikut hasil screenshot dari tampilan yang telah dibuat: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. <b>Halaman Awal</b> - Page film list :
+<img src="./image/page-film.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. <b>Halaman Screening</b> - Page screening list :
+<img src="./image/page-screening.png">
 
-### `npm test`
+3. <b>Halaman Pembeli</b> - Page list pembeli :
+<img src="./image/page-pembeli.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. <b>Halaman Transaksi</b> - Page list transaksi :
+<img src="./image/page-transaksi.png">
 
-### `npm run build`
+5. <b>Halaman Ticket</b> - Page list Ticket :
+<img src="./image/page-ticket.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## SCREENSHOT FORM
+Berikut hasil screenshot dari tampilan <b>Form</b> yang telah dibuat: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Form add dari <b>Page Film List</b> 
+<img src="./image/form-film.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# terimakasih
