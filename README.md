@@ -63,19 +63,19 @@ npm run deploy
 Berikut hasil screenshot dari tampilan yang telah dibuat:
 
 1. **Halaman Awal** - Page film list:
-   ![Page Film](./image/page-film.png)
+   ![Page Film](../image/page-film.png)
 
 2. **Halaman Screening** - Page screening list:
-   ![Page Screening](./image/page-screening.png)
+   ![Page Screening](../image/page-screening.png)
 
 3. **Halaman Pembeli** - Page list pembeli:
-   ![Page Pembeli](./image/page-pembeli.png)
+   ![Page Pembeli](../image/page-pembeli.png)
 
 4. **Halaman Transaksi** - Page list transaksi:
-   ![Page Transaksi](./image/page-transaksi.png)
+   ![Page Transaksi](../image/page-transaksi.png)
 
 5. **Halaman Ticket** - Page list Ticket:
-   ![Page Ticket](./image/page-ticket.png)
+   ![Page Ticket](../image/page-ticket.png)
 
 ## SCREENSHOT FORM
 Berikut hasil screenshot dari tampilan **Form** yang telah dibuat:
